@@ -43,7 +43,7 @@ public class CryptoMarche {
      */
     public double capitalMonneaie(Cryptomonnaie monnaie){
 
-        double sum;
+        double sum = 0.0;
 
         for ( Portefeuille p : portefeuilles ) {
             if ( p.getMonnaie() == monnaie ) {
